@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="$language_short">
+<head>
+	<base href="/" />
+	<link rel="stylesheet" href="/resources/style.css" type="text/css" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Google Homepage</title>
+	<meta name="description" content="$page_description" />
+	<link rel="canonical" href="$page_url" />
+	<meta name="og:title" content="$page_title" />
+	<meta name="og:description" content="$page_description" />
+	<meta name="og:url" content="$page_url" />
+	<meta name="og:image" content="$og_image" />
+	<meta name="og:image:alt" content="$og_alt" />
+	<meta name="article:published_time" content="$page_date" />
+	<link rel="preload" href="$webfont_url" as="font" type="font/woff2" crossorigin />
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+	<meta name="og:site_name" content="$site_name" />
+	<meta name="og:type" content="website" />
+	<meta name="og:locale" content="$language_long" />
+	<meta name="og:image:width" content="1200" />
+	<meta name="og:image:height" content="630" />
+	<meta name="og:email" content="$site_email" />
+	<meta name="og:phone_number" content="$site_telephone" />
+	<meta name="article:publisher" content="$site_name" />
+	<meta name="fb:app_id" content="$facebook_appid" >
+	<meta name="twitter:site" content="$twitter_account">
+	<meta name="twitter:creator" content="$twitter_account">
+	<meta name="twitter:card" content="summary_large_image" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="$color_theme" />
+	<meta name="msapplication-TileColor" content="$color_theme" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<meta name="apple-mobile-web-app-title" content="$page_title" />
+	<meta name="application-name" content="$site_name" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="theme-color" content="$color_theme" />
+</head>
+
+<body class="home">
+	<header class="header" id="Header">
+			<a href="#" class="headerLink">Gmail</a>
+			<a href="#" class="headerLink" id="imagesLink">Images</a>
+			<button class="googleAppsTriggerButton" id="GoogleAppsTriggerButton">
+				<img src="/resources/icon-menu.svg" alt="" width="24" height="24">
+			</button>
+			<button class="signInButton" onclick="location.href='/signup.html';">Sign in</button>
+			<nav class="googleAppsMenu" id="GoogleAppsMenu">
+				<ul class="googleAppsList">
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1587px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Account</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1794px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Search</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0px -483px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Maps</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2622px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">YouTube</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -207px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Play</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1311px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">News</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2001px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Gmail</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -690px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Meet</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1656px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Chat</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2898px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Contacts</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2967px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Drive</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2553px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Calendar</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1932px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Translate</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2829px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Photos</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2484px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Duo</span>
+						</a>
+					</li>
+					<span class="divideList"></span>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -345px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Finance</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1242px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Docs</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2208px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Sheets</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2277px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Slides</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2760px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Books</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1863px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Blogger</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2415px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Hangouts</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -276px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Keep</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2070px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Jamboard</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1380px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Earth</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -621px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Collections</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -1518px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Arts and Culture</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -414px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Google Ads</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -552px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Podcasts</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -828px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Stadia</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -3036px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Travel</span>
+						</a>
+					</li>
+					<li class="googleAppsItem">
+						<a href="#" class="googleAppsLink">
+							<div class="googleAppsIconContainer">
+								<span class="googleAppsIcon" style="background-position: 0 -2139px;"></span>
+							</div>
+							<span class="googleAppsIconDescription">Forms</span>
+						</a>
+					</li>	
+					<div class="googleAppsListMore">
+						<a href="#" class="moreFromGoogle">More from Google</a>
+					</div>
+				</ul>
+			</nav>
+	</header>
+	<main class="main">
+		<section class="logo">
+			<picture class="responsiveGoogleLogo">
+				<source type="image/webp" srcset="/images/google-logo-mobile.webp" media="(max-width: 767px)" width="160" height="56"/>
+				<source type="image/webp" srcset="/images/google-logo.webp" media="(min-width: 768px)" width="272" height="92" />
+				<img src="/images/google-logo-mobile.png" width="160" height="92" itemprop="image" />
+			</picture>	
+		</section>
+	</main>
+	<section class="search">
+		<div class="bar">
+			<a href="#"><img class="searchSvg" src="/resources/search.svg" width="20" height="20" title="Search by typing"></a>
+			<input class="searchBar" type="text" title="Search">
+			<a href="#"> <img class="voiceSvg" src="/resources/search-microphone.svg" width="24" height="24" title="Search by Voice"></a>
+		</div>
+		<div class="buttons">
+			<button class="button" type="button">Google Search</button>
+			<button class="button" type="button">I'm Feeling Lucky</button>
+		</div>
+		<div class="language">Google offered in: 
+			<a href="#" class="languageLink">Romana</a>
+			<a href="#" class="languageLink">magyar</a>
+			<a href="#" class="languageLink">Deutsch</a>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footerTop">Romania</div>
+		<div class="footerBottom">
+			<ul class="footerBottomList">
+				<li class="footerBottomItem"><a class="footerBottomLink" href="#">About</a></li>
+				<li class="footerBottomItem"><a class="footerBottomLink" href="#">Advertising</a></li>
+				<li class="footerBottomItem"><a class="footerBottomLink" href="#">Business</a></li>
+				<li class="footerBottomItem"><a class="footerBottomLink" href="#">How Search works</a></li>
+			</ul>
+			<ul class="footerBottomList">
+				<li class="footerBottomItem"><a class="footerBottomLink" href="#">Privacy</a></li>
+				<li class="footerBottomItem"><a class="footerBottomLink" href="#">Terms</a></li>
+				<li class="footerBottomItem"><a class="footerBottomLink" href="#">Settings</a></li>
+			</ul>
+		</div>
+	</footer>
+	<script src="/resources/script.js"></script>
+	<!-- <script type="text/javascript">
+        document.getElementById('GoogleAppsTriggerButton').onclick = showDropDown;
+    </script> -->
+</body>
+
+</html>

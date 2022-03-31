@@ -1,0 +1,47 @@
+@import "reset";
+
+@media only screen and (max-width: 768px){
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  }
+
+  body { overflow: hidden; position: absolute; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; font-size: 14px; line-height: 1.4286; font: 400 14px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;}
+  input { height: 36px; text-align: center; border: 1px solid #dadce0; border-radius: 4px; outline: none;
+    &:focus { border: 2px solid #1a73e8; }
+}
+//   .formItem input { width: 100%;}
+  .container {  }
+    .form { display: flex; height: 450px; width: 350px; border: 1px solid #dadce0; padding: 20px; border-radius: 8px; flex-direction: column; align-items: center; background: #f2f2f2; box-shadow: 1px 1px 7px #6c6565, 0px 0px 0px #0b0b0b;
+    @media (max-width: 400px) { width: 80vw;}
+    }
+    .formTitle { color: #202124; padding-bottom: 15px; font-size: 20px; font-weight: 400; line-height: 1.3333; }
+    .formItem { width: 90%; display: flex;  align-items: center; justify-content: center; padding-bottom: 15px;
+    @media (max-width: 400px) { width: 280px; }
+    }
+    .formItem input { width: 100%;}
+    .formItem .Name {  }
+        .formItem.Name input { margin: 0 10px; width: 45%;}  
+    .formItem.Username {  }
+        .formItem.Username input { width: 92%; }
+    .formItem.Password { position: relative; }
+        .pwd-format { display: none; position: absolute; top: 38px; right: -36px; height: 46px; width: 145px; color: #fff; background: #1a73e8; padding: 5px; font-size: 11px; border-radius: 5px;
+        @media (max-width: 391px) { right: -9px;}
+        }
+        .formItem.Password input { margin: 0 10px; }
+        .password {  }
+        .confirmPassword {  }
+    .termsAndConditions { display: flex; align-items: center; padding-bottom: 10px; }  
+        .accept {  }  
+        p { margin-left: 10px; }
+    .form-btns { display: flex; align-items: center; flex-direction: column; }
+        .signUp { margin-top: 10px; margin-bottom: 10px; font-size: 20px; padding: 10px; width: 280px; border: none; border-radius: 5px; cursor: pointer; background: #1a73e8; color: #fff;
+        &:disabled { cursor: not-allowed; background: #8f8b85 !important; color: rgb(131, 120, 120) !important; }
+        &:hover { background: #0e4fa4; }
+        }
+        .options { margin-top: 15px; } 
+            a {  } 
+
+

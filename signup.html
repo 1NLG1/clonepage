@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/resources/signUpstyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+        <form action="signup.php" method="POST" class="form">
+            <h2 class="formTitle">Create your Google Account</h2>
+            <div class="formItem Name" id="FormItemName">
+                <input type="text" name="firstName" id="FirstName" placeholder="First Name" class="firstName">
+                <input type="text" name="lastName" id="LastName" placeholder="Last Name" class="lastName">
+            </div>
+            <div class="formItem Username">
+                <input type="email" name="email" id="Email" placeholder="Email" class="email">
+            </div>
+            <div class="formItem Password">
+                <span class="pwd-format">
+                   min. 8 characters, at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character(@$!%*?&)
+                </span> 
+                <input type="password" name="password" id="Password" placeholder="Enter Password" class="password">
+                <input type="password" name="confirmPassword" id="ConfirmPassword" placeholder="Confirm Password" class="confirmPassword">
+            </div>
+            <div class="termsAndConditions">
+                <input type="checkbox" name="accept" id="Accept" class="accept">
+                <p>I accept the <a href="#">Terms & Conditions</a></p>
+            </div>
+            <div class="form-btns">
+                <button class="signUp" type="submit" disabled>Sign Up</button>
+                <div class="options">
+                    Already have an account ? <a href="login.html">Login here</a>
+                </div>
+            </div>
+        </form>
+    </div> 
+    <script src="/resources/signUpScript.js"></script>
+</body>
+</html>
